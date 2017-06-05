@@ -1,0 +1,87 @@
+body{
+ background-color: #323232;
+}
+.container {
+  
+}
+
+.main {
+  position: relative;
+}
+
+.row{
+   
+}
+
+.col {
+ height: 200px;
+ 
+}
+.green,.red,.yellow,.blue {
+  cursor: pointer;
+}
+.green {
+  background-color: green;
+  border-top-left-radius: 100%;
+  box-shadow: #007f00 0 0 30px;
+  
+}
+
+.red {
+  background-color: red;
+  border-top-right-radius: 100%;
+  box-shadow: #990000 0 0 30px;
+}
+
+.yellow {
+  background-color: yellow;
+  border-bottom-left-radius: 100%;
+  box-shadow: #e5e500 0 0 30px;
+}
+
+.blue {
+  background-color: blue;
+  border-bottom-right-radius: 100%;
+  box-shadow: #00007f 0 0 30px;
+}
+.startBtn,.stopBtn {
+  width: 100%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+ }
+ .countBtn {
+   width: 100%;
+   padding: 10px;
+   margin-top: 10%;
+   font-size: 20px;
+   cursor: default;
+   border: none;
+ }
+ .countBtn:hover{
+   background-color: #337ab7;
+
+ }
+ .badge {
+   padding: 20px;
+   border-radius: 100%;
+   font-size: 30px;
+   margin-left: 10px;
+ }
+ .centerDiv {
+  margin: auto;
+  position: absolute;
+  height: 100px;
+  width:100px;
+  top: 0; left: 0; bottom: 0; right: 0;
+   
+ }
+
+ .strictBtn {
+   background-color: black;
+   width: 100px;
+   height: 100px;
+   border-radius: 30%;
+   position: absolute;
+   z-index: 10;
+   color: #fff;
+ }
